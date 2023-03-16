@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gallery</title>
+</head>
+<body>
+	<h1>My Website</h1>
+	<p>Welcome, {{username}}! <a href="/logout">Logout</a></p>
+	<div>
+		{{#each images}}
+		<img src="{{this}}">
+		{{/each}}
+	</div>
+</body>
+</html>
